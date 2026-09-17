@@ -1,7 +1,5 @@
-function Row({ children }) {
-  return (
-    <div className="flex flex-row w-full justify-between gap-2">{children}</div>
-  );
+function Row({ children, className }) {
+  return <div className={`${className}`}>{children}</div>;
 }
 
 export default Row;
